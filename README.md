@@ -1,1 +1,1 @@
-# khariwalkaz.github.io
+# kharidz.me

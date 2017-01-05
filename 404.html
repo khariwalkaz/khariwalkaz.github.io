@@ -1,42 +1,20 @@
 <html>
-	<head>
-		<title>Error 404 - KhariDz.Me</title>
-		<style type='text/css'>
-.header-wrapper, #header, #outer-wrapper, #post-wrapper, #sidebar-wrapper, #content-wrapper,#footer-wrapper,#inv-navigation,.top-wrap-head{display:none;}
-body,html{overflow:hidden;margin:0;padding:0;width:100%;min-height:100vh;}
-.container404{margin:8% auto 0 auto;max-width:560px;min-width:200px;line-height:normal;backface-visibility:hidden;transition:all .3s;}
-.container404:hover{cursor:crosshair;transform:scale(1.1)}
-.box404 hr{background:transparent;display:block;border:none;border-bottom:2px dashed rgba(0,0,0,0.1)}
-.box404{background-color:#fff;padding:20px;font-size:110%;color:#888;border-radius:5px 5px 0 0}
-.box404 h2,.box404 h3{color:#444;display:block;text-align:center;font-size:120%}
-.box404 h2{font-size:4rem;color:#e74c3c;}
-.box404 p{display:block;margin:10px 0}
-.box404 ul li{margin:0 0 8px 20px;list-style:initial;list-style-type:square}
-.box404 ul li a{color:#888;}
-.copyright404{background:#444;display:block;text-align:center;color:#fff;margin:auto;font-weight:normal;max-width:560px;min-width:200px;padding:20px;border-radius:0 0 5px 5px}
-.copyright404 a,.copyright404 a:hover{color:#fff}
-@media screen and (max-width:1024px) {
-.container404{margin:4% auto 0 auto;}}
-		</style>
-	</head>
+<head>
+<title>Error 404 - KhariDz.Me</title>
+<style type='text/css'>
+#error-page{background-color:#e9e9e9;position:fixed!important;position:absolute;text-align:center;top:0;right:0;bottom:0;left:0;z-index:99999}#error-404{margin:11% auto}#error-404 .box-404{width:200px;height:200px;background:#21afa4;color:#fff;font-size:80px;line-height:200px;border-radius:10px;margin:0 auto 50px;position:relative}#error-404 .box-404::after{content:&quot;width:0;height:0;bottom:-8px;border-color:#21afa4 transparent transparent;border-style:solid;border-width:9px 9px 0;position:absolute;left:47%}#error-404 h1{text-transform:uppercase}#error-404 p{line-height:1.7em;font-size:15px;font-family:arial}
+</style>
+</head>
 <body>
-<div class='backtotop hider'><i class='fa fa-angle-up'></i></div>
-<div class='container404'>
-<div class='box404'>
-<h2>404</h2>
-<h3>The page could not be found</h3>
-<hr/>
-<p>The page you are looking for might have been removed had its name changed or is temporarily unavailable</p>
-<p>Please try the following :</p>
-<ul>
-<li>If you type the page address in the <strong>Address bar</strong>, make sure that it is spelled correctly.</li>
-<li>Click <strong><a href='http://www.thanhtrungit.com/'>here</a></strong> to return to our main page.</li>
-<li>If you were linked to this page, contact the administrator and make them aware of this issue.</li>
-</ul>
-</div>
-<div class='copyright404'>
-  &#169; 2016 <a href='http://www.thanhtrungit.com/'>Thành Trung IT - Blog chia sẻ thủ thuật, tài liệu, tutorial</a>. All Rights Reserved.
-</div>
-</div>
+<div id='error-page'>
+<div id='error-404'>
+<div class='box-404'>404</div>
+<h1>Trang bạn tìm kiếm không tồn tại</h1>
+<p>Có thể URL bị hỏng hoặc đã bị ADMIN xóa bỏ</p>
+
+Bạn sẽ trở về trang chủ <b>KhariDz.Me</b> sau <span id='time' style='color:red'>3</span> giây nữa<br/> 
+<script type='text/javascript'> var jgt = 3; document.getElementById(&#39;time&#39;).innerHTML = jgt; function stime(){document.getElementById(&#39;time&#39;).innerHTML = jgt; jgt = jgt - 1; if(jgt == 0){clearInterval(timing); location = &#39;http://kharidz.me&#39;;} } var timing = setInterval(&quot;stime();&quot;,1000); </script>
+
+  </div></div>
 </body>
 </html>

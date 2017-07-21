@@ -1,0 +1,206 @@
+body {
+    opacity: 0;
+}
+#adminmenumain,#wpadminbar {
+    display: none !important;
+}
+html.wp-toolbar {
+    padding-top: 0px !important;
+}
+#wpcontent, #wpfooter {
+    margin-left: 0px !important;
+}
+#parallax-main-block {
+    display: none !important;    
+}
+body #wpbody > #wpbody-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    position: static !important;
+    margin: 0px !important;
+    box-sizing: border-box !important;
+}
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+@media screen and (max-width: 600px){
+    #wpbody {
+        padding-top: 0px !important;
+    }
+}
+#osdb_bootstraped.wos_browserPanel, 
+#osdb_bootstraped.wos_browserPanel * {
+    box-sizing: border-box;
+}
+#osdb_bootstraped.wos_browserPanel {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background-color: #2c3e50;
+}
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel{
+    width: 100%;
+    padding: 4px;
+}
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel input[type="text"]{
+    width: 100%;
+    border: 2px solid #bdc3c7;
+    color: #34495e;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.467;
+    padding: 8px 12px;
+    height: 38px;
+    box-shadow: none;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
+}
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel input[type="text"].wos_error {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel input[type="text"]:focus {
+    border-color: #1abc9c;
+}
+#osdb_bootstraped.wos_browserPanel #wos_browserFrame{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #1abc9c;
+}
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel #wos_browserRefreshBtn,
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel #wos_browserBookmarkBtn{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel #wos_browserRefreshBtn:hover,
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel #wos_browserBookmarkBtn:hover{
+    opacity: 0.7;
+}
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel #wos_browserRefreshBtn > img,
+#osdb_bootstraped.wos_browserPanel #wos_browserTopPanel #wos_browserBookmarkBtn > img {
+    max-height: 22px;
+}
+#osdb_bootstraped #wos_browserFooter {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    margin-top: -4px;
+    padding: 8px;
+}
+#osdb_bootstraped #wos_browserFooter p {
+    margin: 0px;
+    vertical-align: middle;
+    line-height: 16px;
+    font-size: 12px;
+}
+
+body.wos_skin a.button,body.wos_skin a.button-primary, body.wos_skin a.button-secondary,body.wos_skin input[type="submit"],body.wos_skin.wp-core-ui .button,
+body.wos_skin button.button, body.wos_skin .wrap .add-new-h2,body.wos_skin .wrap .page-title-action,body.wos_skin .wrap .add-new-h2,body.wos_skin  .wrap .add-new-h2:active,
+body.wos_skin.wp-core-ui .button-primary,body.wos_skin.wp-core-ui .button-primary:hover,body.wos_skin.wp-core-ui .button-primary:active{
+    font-size: 13px !important;
+    line-height: 20px !important;
+    height: 34px;
+    text-shadow: none;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 7px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
+    background: none;
+    opacity: 1;
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;   
+}
+body.wos_skin.wp-core-ui .button.button-primary.button-hero,
+body.wos_skin.wp-core-ui .button.button-primary.button-hero:hover,
+body.wos_skin.wp-core-ui .button.button-primary.button-hero:active,
+body.wos_skin.wp-core-ui .button-group.button-hero .button, body.wos_skin.wp-core-ui .button.button-hero,
+body.wos_skin.wp-core-ui .button-group.button-hero .button:hover, body.wos_skin.wp-core-ui .button.button-hero:hover,
+body.wos_skin.wp-core-ui .button-group.button-hero .button:active, body.wos_skin.wp-core-ui .button.button-hero:active{
+    font-size: 14px !important;
+    text-shadow: none;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    border: 0;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 7px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
+    background: none;
+    opacity: 1;
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;   
+    margin: 15px 13px 3px 0;
+    padding: 12px 36px !important;;
+    height: auto !important;;
+    line-height: 1.4285714 !important;;
+    white-space: normal;
+    
+}
+body.wos_skin a.button:hover,body.wos_skin a.button-primary:hover, body.wos_skin a.button-secondary:hover,body.wos_skin input[type="submit"]:hover,
+body.wos_skin button.button:hover,body.wos_skin.wp-core-ui .button:hover,body.wos_skin .wrap .add-new-h2:hover,body.wos_skin .wrap .page-title-action:hover,
+body.wos_skin.wp-core-ui .button-group.button-hero .button:hover, body.wos_skin.wp-core-ui .button.button-hero:hover {
+    opacity: 0.9;
+    -webkit-box-shadow: inset 0 0px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 0px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 0px 0 rgba(0,0,0,0.15);
+}
+body.wos_skin a.button:active,body.wos_skin a.button-primary:active, body.wos_skin a.button-secondary:active,body.wos_skin input[type="submit"]:active,body.wos_skin button.button:active,
+body.wos_skin.wp-core-ui .button:active,body.wos_skin .wrap .add-new-h2:active,body.wos_skin .wrap .page-title-action:active{
+    opacity: 0.7;
+}
+body.wos_skin input[type=text],body.wos_skin  input[type=search],body.wos_skin  input[type=radio],body.wos_skin  input[type=tel],body.wos_skin  input[type=time],body.wos_skin  input[type=url],body.wos_skin  input[type=week],body.wos_skin  input[type=password],body.wos_skin  input[type=checkbox],body.wos_skin  input[type=color],body.wos_skin  input[type=date],body.wos_skin  input[type=datetime],body.wos_skin  input[type=datetime-local],body.wos_skin  input[type=email],body.wos_skin  input[type=month],body.wos_skin  input[type=number],body.wos_skin  select,body.wos_skin  textarea {
+    font-size: 13px;
+    border: 2px solid #bdc3c7;    
+    line-height: 26px;
+}
+
+body.wos_skin.wp-admin select,body.wos_skin .search-box input[name="s"],body.wos_skin  .tablenav .search-plugins input[name="s"],body.wos_skin  .tagsdiv .newtag {
+    height: 34px;    
+}
+body.wos_skin .tablenav {
+    height: 38px;
+    margin-bottom: 8px;
+}
+body.wos_skin .theme-browser .theme .theme-actions .button {
+    margin-top: -3px;
+}
+body.wos_skin .updates-table td input, .widefat tfoot td input, .widefat th input, .widefat thead td input {
+    margin-top: -2px;
+}
+
+html {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}

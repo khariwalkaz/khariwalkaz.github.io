@@ -1,0 +1,353 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: wos\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: includes/wos-admin.php:106
+msgid "WP OS Desktop"
+msgstr ""
+
+#: includes/wos-admin.php:108 includes/wos-admin.php:111
+#: includes/wos-admin.php:932
+msgid "Desktop appearance"
+msgstr ""
+
+#: includes/wos-admin.php:108
+msgid "Appearance"
+msgstr ""
+
+#: includes/wos-admin.php:116
+msgid "Web Browser"
+msgstr ""
+
+#: includes/wos-admin.php:926 includes/wos-admin.php:1581
+#: includes/wos-admin.php:1776
+msgid "Save"
+msgstr ""
+
+#: includes/wos-admin.php:927
+msgid "Title"
+msgstr ""
+
+#: includes/wos-admin.php:928
+msgid "Edit a shortcut"
+msgstr ""
+
+#: includes/wos-admin.php:929
+msgid "Icon"
+msgstr ""
+
+#: includes/wos-admin.php:930
+msgid "Select an icon"
+msgstr ""
+
+#: includes/wos-admin.php:931
+msgid "Page bookmarked"
+msgstr ""
+
+#: includes/wos-admin.php:933
+msgid "Delete all shortcuts"
+msgstr ""
+
+#: includes/wos-admin.php:934
+msgid "Edit the settings"
+msgstr ""
+
+#: includes/wos-admin.php:976 includes/wos-admin.php:997
+msgid "Yes"
+msgstr ""
+
+#: includes/wos-admin.php:977 includes/wos-admin.php:998
+msgid "No"
+msgstr ""
+
+#: includes/wos-admin.php:1216
+msgid "Refresh"
+msgstr ""
+
+#: includes/wos-admin.php:1217
+msgid "Bookmark"
+msgstr ""
+
+#: includes/wos-admin.php:1222
+msgid ""
+"Please keep in mind that some websites may not be loaded through an iframe. "
+"This depends on the X-Frame-Options rule in the .htaccess file of the website"
+msgstr ""
+
+#: includes/wos-admin.php:1235
+msgid "Desktop"
+msgstr ""
+
+#: includes/wos-admin.php:1236
+msgid "Admin skin"
+msgstr ""
+
+#: includes/wos-admin.php:1246
+msgid "Background color of windows"
+msgstr ""
+
+#: includes/wos-admin.php:1250
+msgid "Text color of windows header"
+msgstr ""
+
+#: includes/wos-admin.php:1254
+msgid "Background color of windows icons"
+msgstr ""
+
+#: includes/wos-admin.php:1258
+msgid "Background color of activated windows icons"
+msgstr ""
+
+#: includes/wos-admin.php:1262
+msgid "Default color of windows icons"
+msgstr ""
+
+#: includes/wos-admin.php:1266
+msgid "Color of shortcuts"
+msgstr ""
+
+#: includes/wos-admin.php:1274
+msgid "Background color of the context menu"
+msgstr ""
+
+#: includes/wos-admin.php:1278
+msgid "Color of the context menu links"
+msgstr ""
+
+#: includes/wos-admin.php:1282
+msgid "Color of the context menu hovered links"
+msgstr ""
+
+#: includes/wos-admin.php:1286
+msgid "Color of the bottom bar"
+msgstr ""
+
+#: includes/wos-admin.php:1290
+msgid "Opacity of the bottom bar"
+msgstr ""
+
+#: includes/wos-admin.php:1301 includes/wos-admin.php:1512
+msgid "Background color"
+msgstr ""
+
+#: includes/wos-admin.php:1306 includes/wos-admin.php:1517
+msgid "Background image"
+msgstr ""
+
+#: includes/wos-admin.php:1314 includes/wos-admin.php:1526
+msgid "Use a Youtube video as background"
+msgstr ""
+
+#: includes/wos-admin.php:1319 includes/wos-admin.php:1532
+msgid "URL of the Youtube video"
+msgstr ""
+
+#: includes/wos-admin.php:1324
+msgid "Gray effect on windows in background"
+msgstr ""
+
+#: includes/wos-admin.php:1328
+msgid "Blur effect on windows in background"
+msgstr ""
+
+#: includes/wos-admin.php:1332
+msgid "Dark effect on windows in background"
+msgstr ""
+
+#: includes/wos-admin.php:1348
+msgid "Menus"
+msgstr ""
+
+#: includes/wos-admin.php:1350
+msgid "Google font"
+msgstr ""
+
+#: includes/wos-admin.php:1356
+msgid "Top bar background color"
+msgstr ""
+
+#: includes/wos-admin.php:1361
+msgid "Top bar links background color"
+msgstr ""
+
+#: includes/wos-admin.php:1366
+msgid "Top bar links color"
+msgstr ""
+
+#: includes/wos-admin.php:1371
+msgid "Top bar submenus background color"
+msgstr ""
+
+#: includes/wos-admin.php:1376
+msgid "Top bar submenus links color"
+msgstr ""
+
+#: includes/wos-admin.php:1381
+msgid "Top submenus hovered links color"
+msgstr ""
+
+#: includes/wos-admin.php:1386
+msgid "Sidebar background color"
+msgstr ""
+
+#: includes/wos-admin.php:1396
+msgid "Sidebar links background color"
+msgstr ""
+
+#: includes/wos-admin.php:1401
+msgid "Sidebar links color"
+msgstr ""
+
+#: includes/wos-admin.php:1406
+msgid "Sidebar hovered links color"
+msgstr ""
+
+#: includes/wos-admin.php:1411
+msgid "Sidebar submenus background color"
+msgstr ""
+
+#: includes/wos-admin.php:1416
+msgid "Sidebar submenus links color"
+msgstr ""
+
+#: includes/wos-admin.php:1422
+msgid "Sidebar submenus hovered links color"
+msgstr ""
+
+#: includes/wos-admin.php:1427
+msgid "Sidebar submenus active header background color"
+msgstr ""
+
+#: includes/wos-admin.php:1432
+msgid "Sidebar submenus active header color"
+msgstr ""
+
+#: includes/wos-admin.php:1437
+msgid "Sidebar submenus active link color"
+msgstr ""
+
+#: includes/wos-admin.php:1444
+msgid "Pages content"
+msgstr ""
+
+#: includes/wos-admin.php:1448
+msgid "Pages background color"
+msgstr ""
+
+#: includes/wos-admin.php:1453
+msgid "Default buttons texts color"
+msgstr ""
+
+#: includes/wos-admin.php:1459
+msgid "Default buttons background color"
+msgstr ""
+
+#: includes/wos-admin.php:1465
+msgid "Primary buttons texts color"
+msgstr ""
+
+#: includes/wos-admin.php:1470
+msgid "Primary buttons background color"
+msgstr ""
+
+#: includes/wos-admin.php:1476
+msgid "Secondary buttons texts color"
+msgstr ""
+
+#: includes/wos-admin.php:1481
+msgid "Secondary buttons background color"
+msgstr ""
+
+#: includes/wos-admin.php:1489 includes/wos-admin.php:1557
+msgid "Links color"
+msgstr ""
+
+#: includes/wos-admin.php:1494
+msgid "Headers texts color"
+msgstr ""
+
+#: includes/wos-admin.php:1498
+msgid "Headers background color"
+msgstr ""
+
+#: includes/wos-admin.php:1507
+msgid "Login page"
+msgstr ""
+
+#: includes/wos-admin.php:1537
+msgid "Logo image"
+msgstr ""
+
+#: includes/wos-admin.php:1545
+msgid "Main color"
+msgstr ""
+
+#: includes/wos-admin.php:1549
+msgid "Panel texts color"
+msgstr ""
+
+#: includes/wos-admin.php:1553
+msgid "Panel background color"
+msgstr ""
+
+#: includes/wos-admin.php:1561
+msgid "Button text color"
+msgstr ""
+
+#: includes/wos-admin.php:1565
+msgid "Button background color"
+msgstr ""
+
+#: includes/wos-admin.php:1582
+msgid "Reset colors"
+msgstr ""
+
+#: includes/wos-admin.php:1598
+msgid "Purchase Code"
+msgstr ""
+
+#: includes/wos-admin.php:1601
+msgid "Where I can find my purchase code ?"
+msgstr ""
+
+#: includes/wos-admin.php:1605 includes/wos-admin.php:1654
+msgid "Keyboard shortcut to show next window"
+msgstr ""
+
+#: includes/wos-admin.php:1717
+msgid "Enable WP OS Backend ?"
+msgstr ""
+
+#: includes/wos-admin.php:1723
+msgid "Enable admin skin"
+msgstr ""
+
+#: includes/wos-admin.php:1728
+msgid "Hide WP menu for non-admin users"
+msgstr ""
+
+#: includes/wos-admin.php:1732
+msgid "Allow non-admins to edit shortcuts"
+msgstr ""
+
+#: includes/wos-admin.php:1736
+msgid "Non-admins can edit the styles of their desktop"
+msgstr ""
+
+#: includes/wos-admin.php:1748
+msgid "Roles allowed to use OS Desktop Backend"
+msgstr ""
+
+#: includes/wos-admin.php:1758
+msgid "Apply the current shortcuts to the role"
+msgstr ""

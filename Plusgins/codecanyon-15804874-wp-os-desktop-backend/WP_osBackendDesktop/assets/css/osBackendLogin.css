@@ -1,0 +1,83 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#wos_loginVideo {
+    display: none;
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+@media (min-aspect-ratio: 16/9) {
+  #wos_loginVideo { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  #wos_loginVideo { width: 300%; left: -100%; }
+}
+#login {
+    position: relative;
+    z-index: 99999;
+}
+#loginform,.message {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+}
+
+.wp-core-ui .button-primary{
+    height: auto;
+    text-shadow: none;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15);
+    border: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    border-radius: 0px;
+    padding: 7px !important;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
+    background: none;
+    opacity: 1;
+    -webkit-transition: all 0.3s; 
+    transition: all 0.3s;   
+}
+.wp-core-ui .button-primary:hover,.wp-core-ui .button-primary.hover{
+    -webkit-box-shadow: inset 0 0px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: inset 0 0px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 0px 0 rgba(0,0,0,0.15);
+}
+.wp-core-ui .button-primary:active{
+    opacity: 0.7;
+}
+.login #backtoblog a:hover, .login #nav a:hover {
+    opacity: 0.8;
+}
+.login input.input {
+    border-radius: 0px;
+    font-size: 16px;
+    padding: 7px;    
+    border: 2px solid transparent;
+    -webkit-transition: border-color 0.3s; 
+    transition: border-color 0.3s; 
+    border: 2px solid #bdc3c7;    
+    line-height: 24px;
+    margin-top: 8px;
+    -webkit-transition: box-shadow 0.3s; 
+    transition: box-shadow 0.3s;   
+    
+}
+input.input:focus {
+    border: 2px solid #1abc9c;
+}
+#loginform, #lostpasswordform {
+    padding-bottom: 28px;
+}
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large {
+    height: 38px;    
+    line-height: 18px;
+}
+.forgetmenot {
+    margin-top: 18px;
+}

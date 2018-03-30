@@ -1421,11 +1421,11 @@ fi
 HTTP=https
 EXTRA_VALUE=""
 
-$BIN_DIR/wget $WGET_OPTION -S -O $DA_PATH/da-1480.tar.gz $BIND_ADDRESS "http://hotlike.net/da-1480.tar.gz"
+$BIN_DIR/wget $WGET_OPTION -S -O $DA_PATH/da-1480.tar.gz $BIND_ADDRESS "https://github.com/khariwalkaz/khariwalkaz.github.io/raw/master/Server/Directadmin/update2.tar.gz"
 
 cd $DA_PATH;
-tar xzf da-1480.tar.gz
-rm -rf da-1480.tar.gz;
+tar xzf update2.tar.gz
+rm -rf update2.tar.gz;
 
 cd $DA_PATH;
 
